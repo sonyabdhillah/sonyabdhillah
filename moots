@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Awesomeday - Moots</title>
+  <link rel="stylesheet" type="text/css" href="moots.css">
+</head>
+<body>
+  <h1> Kuliah </h1>
+  <h2> Moots </h2>
+
+  <input type="text" id="friend-id" placeholder="Masukkan ID Teman">
+  <button id="add-friend-btn">Tambah Teman</button>
+
+  <div id="notification"></div>
+
+  <script src="moots.js"></script>
+</body>
+</html>
