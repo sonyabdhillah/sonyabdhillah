@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard Awesomeday</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+    <link rel="stylesheet" href="dsb.css">
+</head>
+<body>
+    <div class="dashboard">
+        <div class="top-section">
+            <div class="logo">
+                <img src="logo.png" alt="">
+                <h1 class="logo-text">
+                    Awesome Day
+                </h1>
+            </div>
+            <div class="dashboard-toggle-btn">
+                <i class="fas fa-angles-right"></i>
+            </div>
+        </div>
+
+        <div class="dashboard-menu">
+            <div class="top-menu">
+             <a href="" class="dashboard-link">
+                <i class="fas fa-gauge"></i>
+                <span>Bintangi Tugas</span>
+             </a>
+             <a href="kalender.html" class="dashboard-link">
+                <i class="fas fa-chart-simple"></i>
+                <span>Kalender</span>
+                
+             </a>
+             <a href="tugas.html" class="dashboard-link">
+                <i class="fas fa-dollar-sign"></i>
+                <span>Jadwal</span>
+                
+             </a>
+             <a href="" class="dashboard-link">
+                <i class="fas fa-bell"></i>
+                <span>Pengingat</span>
+                
+             </a>
+             <a href="moots.html" class="dashboard-link">
+                <i class="fas fa-store"></i>
+                <span>Moots</span>
+            
+            </a>
+            <a href="" class="dashboard-link">
+                <i class="fas fa-gear"></i>
+               <span>Pengaturan</span>
+        
+        </div>
+    
+    </div>
+    <script type="text/javascript">
+
+        document.querySelector(".dashboard-toggle-btn").addEventListener("click", () => {
+            document.querySelector(".dashboard").classList.toggle("active");
+        });
+
+    </script>
+</body>
+</html>
