@@ -1,0 +1,18 @@
+h1 {
+    margin-bottom: 20px;
+  }
+  
+  input {
+    margin-right: 10px;
+  }
+  
+  button {
+    margin-top: 10px;
+  }
+  
+  #notification {
+    margin-top: 20px;
+    font-weight: bold;
+    color: purple;
+  }
+  
